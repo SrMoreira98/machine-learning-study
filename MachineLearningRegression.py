@@ -34,6 +34,7 @@ teste_y.shape
 print("Treinaremos com %d elementos e testaremos com %d elementos" % (len(treino_x), len(teste_x)))
 
 
+
 modelo = LinearSVC()
 modelo.fit(treino_x, treino_y)
 
